@@ -13,7 +13,7 @@ public class TAssert {
 
         //Source est envoyer a calculerNombredeLigneTloc pour calculer le nombre de ligne
         int nombreAssession= compterAssession(source);
-        System.out.println("Nombre de Test :" +nombreAssession);
+        System.out.println("Nombre de test :" +nombreAssession);
 
 
     }
@@ -27,17 +27,14 @@ public class TAssert {
                 ligne=ligne.trim();
                 if(ligne.contains("assert")||ligne.contains("assertTrue")||ligne.contains("assertFalse")){
                     nombreAssert++;
-
-
             }
-        }
+            }
         }
         catch(IOException e){
             System.err.println("Erreur"+e.getMessage());
             System.exit(2);
 
         }
-
         return nombreAssert;
     }
 }
