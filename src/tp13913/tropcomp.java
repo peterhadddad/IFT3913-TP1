@@ -2,6 +2,8 @@ package tp13913;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
 
 
@@ -21,6 +23,7 @@ public class tropcomp {
             if ("-o".equals(args[0])) {
                 outputFile = args[1];
                 args = Arrays.copyOfRange(args, 2, args.length);
+                writeToFile(outputFile,ligneSortie);
                 printConsole(ligneSortie,seuil);
             }
         }
@@ -28,6 +31,16 @@ public class tropcomp {
             System.out.println("Valide");
         }
 
+    }
+
+    private static void writeToFile(String filePath,List<String> ligneCSV) {
+        try(FileWriter writer=new FileWriter(filePath)){
+            for(String lines:ligneCSV){
+                writer.write(lines+"\n");
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static List<String> processFolder(File folder,List<String> ligneCSV) throws FileNotFoundException {
