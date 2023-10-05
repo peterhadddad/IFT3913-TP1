@@ -1,0 +1,68 @@
+Peter El-Hadad
+Bassel Assi
+
+Pour les 1%:
+ImageAnnotationTest,3,0,0.0
+MeterChartTest,22,0,0.0
+MyDialLayerChangeListener,8,0,0.0
+MyPlotChangeListener,19,0,0.0
+
+Pour les 5%:
+XYImageAnnotationTest,3,0,0.0
+MeterChartTest,22,0,0.0
+MyDialLayerChangeListener,8,0,0.0
+MyPlotChangeListener,19,0,0.0
+RendererChangeDetector,19,0,0.0
+RendererXYPackageUtils,31,0,0.0
+ImageTitleTest,6,0,0.0
+DatasetChangeConfirmation,10,0,0.0
+IntervalDataItem,20,0,0.0
+TestIntervalCategoryDataset<R,193,0,0.0
+TestIntervalXYZDataset,87,0,0.0
+GanttChartTest,174,3,0.017241379310344827
+WaterfallChartTest,66,2,0.030303030303030304
+SerialUtilsTest,72,3,0.041666666666666664
+XYStepChartTest,93,4,0.043010752688172046
+XYBarChartTest,87,4,0.04597701149425287
+ScatterPlotTest,84,4,0.047619047619047616
+TimeSeriesChartTest,84,4,0.047619047619047616
+
+Pour les 10%:
+XYImageAnnotationTest,3,0,0.0
+MeterChartTest,22,0,0.0
+MyDialLayerChangeListener,8,0,0.0
+MyPlotChangeListener,19,0,0.0
+RendererChangeDetector,19,0,0.0
+RendererXYPackageUtils,31,0,0.0
+ImageTitleTest,6,0,0.0
+DatasetChangeConfirmation,10,0,0.0
+IntervalDataItem,20,0,0.0
+TestIntervalCategoryDataset<R,193,0,0.0
+TestIntervalXYZDataset,87,0,0.0
+GanttChartTest,174,3,0.017241379310344827
+WaterfallChartTest,66,2,0.030303030303030304
+SerialUtilsTest,72,3,0.041666666666666664
+XYStepChartTest,93,4,0.043010752688172046
+XYBarChartTest,87,4,0.04597701149425287
+ScatterPlotTest,84,4,0.047619047619047616
+TimeSeriesChartTest,84,4,0.047619047619047616
+XYLineChartTest,84,4,0.047619047619047616
+XYAreaChartTest,83,4,0.04819277108433735
+XYStepAreaChartTest,83,4,0.04819277108433735
+CombinedRangeCategoryPlotTest,161,8,0.049689440993788817
+AreaChartTest,96,5,0.052083333333333336
+PieChartTest,38,2,0.05263157894736842
+BarChartTest,93,5,0.053763440860215055
+StackedBarChartTest,92,5,0.05434782608695652
+StackedAreaChartTest,90,5,0.05555555555555555
+CombinedDomainCategoryPlotTest,161,9,0.055900621118012424
+LineChartTest,89,5,0.056179775280898875
+CombinedRangeXYPlotTest,157,9,0.05732484076433121
+CombinedDomainXYPlotTest,163,10,0.06134969325153374
+BoxAndWhiskerRendererTest,387,38,0.09819121447028424
+CategoryLabelPositionsTest,114,12,0.10526315789473684
+StandardTickUnitSourceTest,19,2,0.10526315789473684
+StandardXYURLGeneratorTest,19,2,0.10526315789473684
+ChartPanelTest,216,23,0.10648148148148148
+
+Trompcomp permet de voir les plus hautes complexité
